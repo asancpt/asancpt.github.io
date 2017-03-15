@@ -1,6 +1,6 @@
 
 # The name of your website.
-name: Holo Alfa
+name: AsanCPT Trainee
 
 description:
 
@@ -20,8 +20,8 @@ author:
   # want it.
   info:
 
-url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+url: http://asancpt.github.io
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
