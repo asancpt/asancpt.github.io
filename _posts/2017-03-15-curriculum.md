@@ -5,7 +5,7 @@ summary: Current curriculum is shown here.
 
 ---
 
-# 교과서 및 논문 발표
+## 교과서 및 논문 발표
 
 - 빨간통계 (배교수님)
     - 이론과 R로 푸는 연습문제를 누가 강의하면 좋을지 생각해 볼것.
@@ -20,7 +20,7 @@ summary: Current curriculum is shown here.
 - 논문 발표 (임교수님)
     - 전공의 1,2 년차, 박관철 선생님, 최애령 선생님 순환 발표 (6명)
 
-# 대학원 강의
+## 대학원 강의
 
 - 수요일 6시: 배교수님 R 강의, 의대 2층 전산실
     - Mandatory: 수강생 및 김형석 선생님
@@ -32,17 +32,17 @@ summary: Current curriculum is shown here.
     - Mandatory: 총론: 김형섭 선생님, 총론, 각론: 최애령선생님
     - Optional: 총론: 김은나 선생님
 
-# Glossary
+## Glossary
 
 - 수련생: 전공의 + 대학원생 (6명)
 
-# Appendix
+## Appendix
 
 ![2016년 4월 교육 현황 - AMC-CMC 집담회 자료](Fig/2016-Status.png)
 
 ![배교수님 강의시 사용했던 Onenotes](Fig/2016-Onenote.png)
 
- # shan
+ ## shan
   
 - NonCompart R 패키지, WinNonLin을 사용한 약동학 비구획분석 (NonCompartmental Analysis, NCA)
 - Clinical Study Report (CSR)의 appendix 작성법 (rtf, ReporteRs, Rmarkdown 등을 사용)
