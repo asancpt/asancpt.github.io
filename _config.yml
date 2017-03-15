@@ -1,24 +1,24 @@
 
 # The name of your website.
-name: AsanCPT Trainee
+name: AsanCPT Trainees
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: AsanCPT Trainees 
 
   # Description of your site. This will show up on the front page.
   subtitle: Welcome 
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Sungpil Han # Change this!
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: shan@acp.kr # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
-  info:
+  info: M.D/Ph.D http://shanmdphd.github.io
 
 url: http://asancpt.github.io
 baseurl: ""
@@ -72,7 +72,7 @@ date_format: "%b %-d, %Y"
 nav-breaking-point: 520px
 
 # Number of posts on each page.
-paginate: 3
+paginate: 100 
 
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false
