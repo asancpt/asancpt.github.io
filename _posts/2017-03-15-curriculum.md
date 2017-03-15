@@ -1,8 +1,6 @@
 ---
 title: Curriculum
-
 summary: Current curriculum is shown here.
-
 ---
 
 ## 교과서 및 논문 발표
@@ -42,14 +40,6 @@ summary: Current curriculum is shown here.
 
 ![배교수님 강의시 사용했던 Onenotes](Fig/2016-Onenote.png)
 
- ## shan
-  
-- NonCompart R 패키지, WinNonLin을 사용한 약동학 비구획분석 (NonCompartmental Analysis, NCA)
-- Clinical Study Report (CSR)의 appendix 작성법 (rtf, ReporteRs, Rmarkdown 등을 사용)
-- Reproducible research tools (Rmarkdown, knitr, LaTeX 등)
-- VCS(Version Control System - SVN, git) 사용법 - github.com 사용법
-- R을 사용한 참고문헌 관리, 의학논문작성 (bookdown 패키지 활용)
-- R Shiny App 만드는 법, Edison App 만드는 법
  
 ## Video Clips
 
@@ -61,14 +51,6 @@ R의 console size, font style, size를 Rconsole 파일을 변경함으로서 조
 ### Comodo Email Certificate 발급받는 법, 아웃룩에 설치하는 법 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/sNUJPv5jWGA" frameborder="0" allowfullscreen></iframe>
-
-## Journal Clubs
-
-- 2017-01-13 The Impact of Mathematical Modeling in Understanding
-the Mechanisms Underlying Neurodegeneration:
-Evolving Dimensions and Future Directions, CPT Pharmacometrics Syst. Pharmacol. (2017) <http://dx.doi.org/10.1002/psp4.12155>
-- 2017-02-24 Daclizumab: A Review in Relapsing Multiple Sclerosis, Drugs (2017) <http://dx.doi.org/10.1007/s40265-017-0708-2>
-
 
 ### Jekyll Themes
 
