@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
 ::selection {
   background: rgba({{ site.theme-color }}, .2);
 }
@@ -19,7 +21,7 @@
 /* Content */
 
 body {
-  font-family: "Crimson Text", Georgia, NanumGothic, Cambria, "Times New Roman", Times, serif;
+  font-family: "Crimson Text", Georgia, "Nanum Gothic", Cambria, "Times New Roman", Times, serif;
   font-size: 22px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
