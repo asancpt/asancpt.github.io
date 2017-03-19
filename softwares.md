@@ -1,7 +1,9 @@
 ---
+layout: page
 title: Softwares
-summary: 서울아산병원 임상약리학과에서 개발한 소프트웨어입니다.
 ---
+
+서울아산병원 임상약리학과에서 개발한 소프트웨어입니다.
 
 ## R packages
 
@@ -23,16 +25,16 @@ summary: 서울아산병원 임상약리학과에서 개발한 소프트웨어�
 - shan: crftools <https://github.com/asancpt/crftools> 
 `install_github("asancpt/crftools")`
 
+## Shiny Web Apps
 
-## Edison Apps
+- shan: pkrshiny <https://asancpt.shinyapps.io/pkrshiny>
+- shan: caff <https://asancpt.shinyapps.io/caff>
+- shan: noncompart <https://asancpt.shinyapps.io/noncompart>
+- shan: vtdm <https://asancpt.shinyapps.io/vtdm>
+
+## Edison Science Apps
 
 - shan: CaffeineEdison <https://github.com/asancpt/CaffeineEdison>
 - shan: NonCompartEdison <https://github.com/asancpt/NonCompartEdison>
 - shan: nmw2017edison <https://github.com/asancpt/nmw2017edison>
-
-## Shiny Apps
-
-- shan: caff <https://asancpt.shinyapps.io/caff>
-- shan: noncompart <https://asancpt.shinyapps.io/noncompart>
-- shan: vtdm <https://asancpt.shinyapps.io/vtdm>
 
