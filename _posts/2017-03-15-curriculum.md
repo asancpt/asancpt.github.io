@@ -36,6 +36,8 @@ summary: Current curriculum is shown here.
 
 ## Appendix
 
+![통계수업](/assets/stat_bae.png)
+
 ![2016년 4월 교육 현황 - AMC-CMC 집담회 자료](Fig/2016-Status.png)
 
 ![배교수님 강의시 사용했던 Onenotes](Fig/2016-Onenote.png)
