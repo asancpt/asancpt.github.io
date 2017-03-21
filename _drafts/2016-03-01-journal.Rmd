@@ -9,7 +9,7 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 
 ## 2017
 
-- `r (cptid <- "2017-01-06-gcpar-ebola")`: Clinical development of Ebola vaccines (2015) <http://dx.doi.org/10.1177/2051013615611017>
+- `r (cptid <- "2017-01-06-gcpark-ebola")`: Clinical development of Ebola vaccines (2015) <http://dx.doi.org/10.1177/2051013615611017>
 
 ![](/assets/`r paste0(cptid, ".png")`)
 
