@@ -10,7 +10,12 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 ## 2017
 
 - `r (cptid <- "2017-01-06-gcpark-ebola")`: Clinical development of Ebola vaccines (2015) <http://dx.doi.org/10.1177/2051013615611017>
-<i class = "fa fa-file-pdf-o"></i> [`PDF`](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
+<i class="fa fa-file-pdf-o"></i>
+
+[`PDF`](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
+<i class="fa fa-camera-retro"></i>
 
 ![](/assets/`r paste0(cptid, ".png")`)
 
