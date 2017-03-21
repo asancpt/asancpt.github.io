@@ -18,8 +18,10 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 ![](/assets/`r paste0(cptid, ".png")`)
 
 - `2017-03-17-yscho-trastuzumab`: Trastuzumab: updated mechanisms of action and resistance in breast cancer, Frontiers in Oncology (2012) <http://dx.doi.org/10.3389/fonc.2012.00062>
-- `2017-03-17-gcpark-nanorods`: Rabies Virus-Inspired Silica-Coated Gold Nanorods as a Photothermal Therapeutic Platform for Treating Brain Tumors
 
+- `r (cptid <- "2017-03-17-gcpark-nanorods")`: Rabies Virus-Inspired Silica-Coated Gold Nanorods as a Photothermal Therapeutic Platform for Treating Brain Tumors
+
+![](/assets/`r paste0(cptid, ".png")`)
 
 ## Conversion
 
