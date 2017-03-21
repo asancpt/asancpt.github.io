@@ -40,18 +40,6 @@ summary: Current curriculum is shown here.
 
 ![배교수님 강의시 사용했던 Onenotes](Fig/2016-Onenote.png)
 
- 
-## Video Clips
-
-### Changing defualt R console size and etc
-R의 console size, font style, size를 Rconsole 파일을 변경함으로서 조절할 수 있습니다. 
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/uSunEN8W5Mo" frameborder="0" allowfullscreen></iframe>
-
-### Comodo Email Certificate 발급받는 법, 아웃룩에 설치하는 법 
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/sNUJPv5jWGA" frameborder="0" allowfullscreen></iframe>
-
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/asancpt/asancpt.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
