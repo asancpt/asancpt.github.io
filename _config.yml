@@ -37,7 +37,7 @@ lang: en
 show-subtitle: true
 display-social-icons: true
 
-footer-text: Department of Clinical Pharmacology and Therapeutics<br>Asan Medical Center, University of Ulsan<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: Department of Clinical Pharmacology and Therapeutics, Asan Medical Center, Seoul<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
