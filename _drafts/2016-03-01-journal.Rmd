@@ -9,15 +9,19 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 
 ## 2017
 
-- `r (cptid <- "2017-01-13-shan-neurodegen")`: The Impact of Mathematical Modeling in Understanding the Mechanisms Underlying Neurodegeneration: Evolving Dimensions and Future Directions, CPT Pharmacometrics Syst. Pharmacol. (2017) <http://dx.doi.org/10.1002/psp4.12155>
+- `r (cptid <- "2017-01-06-gcpar-ebola")`: Clinical development of Ebola vaccines (2015) <http://dx.doi.org/10.1177/2051013615611017>
 
 ![](/assets/`r paste0(cptid, ".png")`)
 
-- `r (cptid <- "2017-02-24-shan-daclizumab")`: Daclizumab: A Review in Relapsing Multiple Sclerosis, Drugs (2017) <http://dx.doi.org/10.1007/s40265-017-0708-2>
+- `r (cptid <- "2017-01-13-shan-neurodegen")`: The Impact of Mathematical Modeling in Understanding the Mechanisms Underlying Neurodegeneration: Evolving Dimensions and Future Directions (2017) <http://dx.doi.org/10.1002/psp4.12155>
 
 ![](/assets/`r paste0(cptid, ".png")`)
 
-- `2017-03-17-yscho-trastuzumab`: Trastuzumab: updated mechanisms of action and resistance in breast cancer, Frontiers in Oncology (2012) <http://dx.doi.org/10.3389/fonc.2012.00062>
+- `r (cptid <- "2017-02-24-shan-daclizumab")`: Daclizumab: A Review in Relapsing Multiple Sclerosis (2017) <http://dx.doi.org/10.1007/s40265-017-0708-2>
+
+![](/assets/`r paste0(cptid, ".png")`)
+
+- `2017-03-17-yscho-trastuzumab`: Trastuzumab: updated mechanisms of action and resistance in breast cancer (2012) <http://dx.doi.org/10.3389/fonc.2012.00062>
 
 - `r (cptid <- "2017-03-17-gcpark-nanorods")`: Rabies Virus-Inspired Silica-Coated Gold Nanorods as a Photothermal Therapeutic Platform for Treating Brain Tumors
 
@@ -26,11 +30,23 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 ## Conversion
 
 - Download `imagemagick` <http://www.imagemagick.org/script/download.php>
+- Add the following script to the `~/.bashrc`
 
 ```bash
-# montage.sh
-rm $1*.png
-convert -density 400 $1.pdf -resize 800x600 $1%03d.png
-montage -mode concatenate -tile 4x $1*.png $1.png
-open $1.png
+function pdfmontage(){
+    rm $1*.png
+    convert -density 300 $1.pdf -resize 600x480 $1_%03d.png
+    montage -mode concatenate -tile 4x $1*.png $1-full.png
+    convert $1-full.png -resize 25% $1.png
+    rm $1_*.png
+    cp $1.png ~/asancpt/asancpt.github.io/assets
+}
 ```
+
+- Run the lines in the bash terminal
+
+```bash
+pdfmontage filename-without-extension
+```
+
+- Git commit and push
