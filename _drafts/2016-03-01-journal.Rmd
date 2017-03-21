@@ -1,5 +1,5 @@
 ---
-title: Journal Club
+title: Journal Club 2017
 summary: 논문 발표 일정입니다.
 ---
 
@@ -7,28 +7,36 @@ The materials shown here is low-resolution and only for the purpose of preview.
 High-resolution presentation files may be available upon request. Please use `Mail` button of the navigation bar.
 If you have an access to the NAS server of AMC CPT, you can find it from `CPT documents/BookJournal` folder. (or click the <i class="fa fa-file-pdf-o"></i> icon)
 
-## 2017
+## List
 
 - `r (cptid <- "2017-01-06-gcpark-ebola")`: Clinical development of Ebola vaccines (2015) <http://dx.doi.org/10.1177/2051013615611017> 
 [<i class="fa fa-file-pdf-o"></i>](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
 ![](/assets/`r paste0(cptid, ".png")`)
 
 - `r (cptid <- "2017-01-13-shan-neurodegen")`: The Impact of Mathematical Modeling in Understanding the Mechanisms Underlying Neurodegeneration: Evolving Dimensions and Future Directions (2017) <http://dx.doi.org/10.1002/psp4.12155>
 [<i class="fa fa-file-pdf-o"></i>](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
 ![](/assets/`r paste0(cptid, ".png")`)
 
 - `r (cptid <- "2017-02-10-gcpark-norendoxifen")`: Design and Synthesis of Norendoxifen Analogues with Dual Aromatase Inhibitory and Estrogen Receptor Modulatory Activities (2015) <http://dx.doi.org/10.1021/jm501218e>
 [<i class="fa fa-file-pdf-o"></i>](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
 ![](/assets/`r paste0(cptid, ".png")`)
 
 - `r (cptid <- "2017-02-24-shan-daclizumab")`: Daclizumab: A Review in Relapsing Multiple Sclerosis (2017) <http://dx.doi.org/10.1007/s40265-017-0708-2>
 [<i class="fa fa-file-pdf-o"></i>](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
 ![](/assets/`r paste0(cptid, ".png")`)
 
-- `2017-03-17-yscho-trastuzumab`: Trastuzumab: updated mechanisms of action and resistance in breast cancer (2012) <http://dx.doi.org/10.3389/fonc.2012.00062>
+- `r (cptid <- "2017-03-17-yscho-Herceptin")` Trastuzumab: updated mechanisms of action and resistance in breast cancer (2012) <http://dx.doi.org/10.3389/fonc.2012.00062>
+[<i class="fa fa-file-pdf-o"></i>](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
+![](/assets/`r paste0(cptid, ".png")`)
 
 - `r (cptid <- "2017-03-17-gcpark-nanorods")`: Rabies Virus-Inspired Silica-Coated Gold Nanorods as a Photothermal Therapeutic Platform for Treating Brain Tumors (2017) <http://dx.doi.org/10.1002/adma.201605563>
 [<i class="fa fa-file-pdf-o"></i>](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+
 ![](/assets/`r paste0(cptid, ".png")`)
 
 ## Conversion
