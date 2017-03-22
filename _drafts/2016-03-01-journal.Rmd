@@ -14,7 +14,7 @@ Print <- function(cptid, DOI) {
     Ref <- GetBibEntryWithDOI(DOI)
     cat(paste0("\n\n### ", paste0(strsplit(cptid, split = "-")[[1]][1:3], collapse = "-"), "\n- speaker: ", 
                strsplit(cptid, split = "-")[[1]][4], 
-               "\n- _", Ref$title, "_ (", Ref$year, ") [Link](", Ref$url, ") "))
+               ", _", Ref$title, "_ (", Ref$year, ") [Link](", Ref$url, ") "))
     #cat(paste0("\n\n### ", cptid, "\n"))
     #cat(gsub("\\[1\\]", "", format(GetBibEntryWithDOI(DOI), style = "text")))
     cat('[<i class="fa fa-file-pdf-o"></i>PDF](')
