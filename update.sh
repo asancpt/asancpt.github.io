@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd _drafts
 for file in *.Rmd; do
     ./r2j.R $file
