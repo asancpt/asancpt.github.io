@@ -220,3 +220,4 @@ pip-log.txt
 
 run.bat
 _site/**
+.Rproj.user
