@@ -5,7 +5,7 @@ summary: 논문 발표 일정입니다.
 
 ```{r setup, include = FALSE}
 library(knitr)
-library(knitcitations)
+library(RefManageR)
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, 
                       results = 'asis',
                       error = TRUE)
@@ -19,55 +19,46 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 
 ```{r}
 cptid <- "2017-01-06-gcpark-ebola"
-DOI   <- "10.1111/j.1461-0248.2005.00827.x"
+DOI   <- "10.1177/2051013615611017"
 ```
 
-`r paste("-", cptid, ":", gsub("^\\[1\\] ", "", format(bib_metadata(DOI))))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+`r Ref <- GetBibEntryWithDOI(DOI);paste("- ", cptid, ": ", Ref$title, ", ", Ref$journal, " (", Ref$year, ") <", Ref$url, ">",sep ="")` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
-
----
 
 ```{r}
 cptid <- "2017-01-13-shan-neurodegen"
 DOI   <- "10.1002/psp4.12155"
 ```
 
-`r paste("-", cptid, ":", gsub("^\\[1\\] ", "", format(bib_metadata(DOI))))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+`r Ref <- GetBibEntryWithDOI(DOI);paste("- ", cptid, ": ", Ref$title, ", ", Ref$journal, " (", Ref$year, ") <", Ref$url, ">",sep ="")` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
-
----
-
 
 ```{r}
 cptid <- "2017-02-10-gcpark-norendoxifen"
 DOI <- "10.1021/jm501218e"
 ```
 
-`r paste("-", cptid, ":", gsub("^\\[1\\] ", "", format(bib_metadata(DOI))))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+`r Ref <- GetBibEntryWithDOI(DOI);paste("- ", cptid, ": ", Ref$title, ", ", Ref$journal, " (", Ref$year, ") <", Ref$url, ">",sep ="")` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
-
----
 
 ```{r}
 cptid <- "2017-02-24-shan-daclizumab"
 DOI <- "10.1007/s40265-017-0708-2"
 ```
 
-`r paste("-", cptid, ":", gsub("^\\[1\\] ", "", format(bib_metadata(DOI))))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+`r Ref <- GetBibEntryWithDOI(DOI);paste("- ", cptid, ": ", Ref$title, ", ", Ref$journal, " (", Ref$year, ") <", Ref$url, ">",sep ="")` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
-
----
 
 ```{r}
 cptid <- "2017-03-17-yscho-Herceptin"
 DOI <- "10.3389/fonc.2012.00062"
 ```
 
-`r paste("-", cptid, ":", gsub("^\\[1\\] ", "", format(bib_metadata(DOI))))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+`r Ref <- GetBibEntryWithDOI(DOI);paste("- ", cptid, ": ", Ref$title, ", ", Ref$journal, " (", Ref$year, ") <", Ref$url, ">",sep ="")` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
 
@@ -76,11 +67,9 @@ cptid <- "2017-03-17-gcpark-nanorods"
 DOI <- "10.1002/adma.201605563"
 ```
 
-`r paste("-", cptid, ":", gsub("^\\[1\\] ", "", format(bib_metadata(DOI))))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+`r Ref <- GetBibEntryWithDOI(DOI);paste("- ", cptid, ": ", Ref$title, ", ", Ref$journal, " (", Ref$year, ") <", Ref$url, ">",sep ="")` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
-
----
 
 ## Conversion
 
