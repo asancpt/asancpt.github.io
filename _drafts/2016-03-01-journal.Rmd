@@ -17,11 +17,13 @@ If you have an access to the NAS server of AMC CPT, you can find it from `CPT do
 ## List
 
 ```{r}
-DOI   <- "10.1111/j.1461-0248.2005.00827.x"
 cptid <- "2017-01-06-gcpark-ebola"
+DOI   <- "10.1111/j.1461-0248.2005.00827.x"
+paste("- ", cptid, ":")
+knit(text = print(bib_metadata("10.1111/j.1461-0248.2005.00827.x")))
+knit(text = print(bib_metadata(DOI))
 ```
-
-- `r paste(cptid, ":"); print(bib_metadata(DOI))` [<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
+[<i class="fa fa-file-pdf-o"></i>PDF](`r paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf")`)
 
 ![](/assets/`r paste0(cptid, ".png")`)
 
