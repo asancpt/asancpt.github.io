@@ -2,7 +2,7 @@
 
 cd _drafts
 for file in *.Rmd; do
-    ./r2j.R $file
+    Rscript ./r2j.R $file
 done
 cd ..
 git add .
