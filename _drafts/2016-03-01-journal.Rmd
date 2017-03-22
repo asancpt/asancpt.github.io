@@ -9,9 +9,6 @@ library(RefManageR)
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, 
                       results = 'asis',
                       error = TRUE)
-library(knitcitations)
-citep(DOI)
-bibliography()
 
 Print <- function(cptid, DOI) {
     Ref <- GetBibEntryWithDOI(DOI)
