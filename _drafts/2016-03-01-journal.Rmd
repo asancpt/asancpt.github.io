@@ -9,13 +9,15 @@ library(RefManageR)
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, 
                       results = 'asis',
                       error = TRUE)
-
+library(knitcitations)
+citep(DOI)
+bibliography()
 
 Print <- function(cptid, DOI) {
     Ref <- GetBibEntryWithDOI(DOI)
-    #cat(paste0("\n\n### ", cptid, "\n- ", Ref$title, ", (", Ref$year, ") [Link](", Ref$url, ") "))
-    cat(paste0("\n\n### ", cptid, "\n"))
-    cat(gsub("\\[1\\]", "", format(GetBibEntryWithDOI(DOI), style = "html")))
+    cat(paste0("\n\n### ", cptid, "\n", Ref$title, ", (", Ref$year, ") [Link](", Ref$url, ") "))
+    #cat(paste0("\n\n### ", cptid, "\n"))
+    #cat(gsub("\\[1\\]", "", format(GetBibEntryWithDOI(DOI), style = "text")))
     cat('[<i class="fa fa-file-pdf-o"></i>PDF](')
     cat(paste0("ftp://172.21.61.202/cpt%20documents/BookJournal/2017/Journal/", cptid, "/", cptid, ".pdf)\n\n"))
     cat(paste0("![](/assets/", cptid, ".png)"))
