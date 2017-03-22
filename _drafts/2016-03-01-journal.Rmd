@@ -6,7 +6,7 @@ summary: 논문 발표 일정입니다.
 ```{r setup, include = FALSE}
 library(knitr)
 library(knitcitations)
-knitr::opts_chunk(echo = FALSE, message = FALSE, warning = FALSE,
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
         results = 'asis')
 ```
 
