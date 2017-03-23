@@ -4,13 +4,13 @@ summary: 저술 활동입니다.
 ---
 
 ```{r include = FALSE}
-Github <- "shanmdphd/conferences"
+Github <- "asancpt/EdisonReport"
 Bookinfo <- function(Github){
     indexRmd <- paste0("https://raw.githubusercontent.com/", Github, "/master/index.Rmd")
     Rmd <- readLines(indexRmd)
     
     Title <- Rmd[grepl("^title", Rmd)]
-    Author <- Rmd[grepl("^author", Rmd)] 
+    Author <- Rmd[grepl("^author|#author", Rmd)] 
     Id <- strsplit(Github, split = "/")[[1]][1]
     Repo <- strsplit(Github, split = "/")[[1]][2]
     
