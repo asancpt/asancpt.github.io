@@ -3,19 +3,33 @@ title: Publications
 summary: 저술 활동입니다.
 ---
 
+```{r include = FALSE}
+Bookinfo <- function(Github){
+    indexRmd <- paste0("https://raw.githubusercontent.com/", Github, "/master/index.Rmd")
+    Id <- strsplit(Github, split = "/")[[1]][1]
+    Repo <- strsplit(Github, split = "/")[[1]][2]
+    Rmd <- readLines(indexRmd)
+    cat("- ", Rmd[grepl("^title", Rmd)], 
+        "\\n-", Rmd[grepl("^author", Rmd)],
+        "\\n-", paste0("[Read](https://", Id, ".github.io/", Repo, ")")
+        )
+}
+```
+
 We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc enable us to engage it and we are happy to share the results.
 
 ## Books
 
 | Cover | Book |
 | :-- | :-- |
-| ![](/img/conferences_cover.jpg) | <https://shanmdphd.github.io/conferences> |
-| ![](/img/nca_cover.jpg) | <https://asancpt.github.io/pkrBook> |
-| ![](/img/edison_cover.jpg) | <https://asancpt.github.io/EdisonReport> |
+| ![](/img/conferences_cover.jpg) | `r Bookinfo("shanmdphd/conferences")` |
+| ![](/img/nca_cover.jpg) | `r Bookinfo("asancpt/pkrBook")` |
+| ![](/img/edison_cover.jpg) | `r Bookinfo("asancpt/EdisonReport")` |
+
+
 
 ## Papers
 
 | Cover | Book |
 | :-- | :-- |
-| ![](/img/caffeine_cover.jpg) | <https://asancpt.github.io/CaffeineEdison> |
-
+| ![](/img/caffeine_cover.jpg) | `r Bookinfo("asancpt/CaffeineEdison")` |
