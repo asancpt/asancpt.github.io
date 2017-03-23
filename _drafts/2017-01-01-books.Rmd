@@ -14,10 +14,10 @@ Bookinfo <- function(Github){
     Id <- strsplit(Github, split = "/")[[1]][1]
     Repo <- strsplit(Github, split = "/")[[1]][2]
     
-    Content <- paste0(gsub('^title: |\\"', "", Title), 
-        "_by_ ", gsub('^author: |\\"|[|]', "", Author),
+    Content <- paste0("**", gsub('^title: |\\"', "", Title), 
+        "** *by* ", gsub('^author: |\\"|\\[|\\]', "", Author),
         paste0(' [<i class="fa fa-book" aria-hidden="true"></i>', 
-               " Read](https://", Id, ".github.io/", Repo, ")\n\n---\n\n")
+               " Read](https://", Id, ".github.io/", Repo, ")\n\n")
         )
     return(Content)
 }
@@ -27,20 +27,22 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 
 ## Books
 
-![](/img/nca_cover.jpg){:.imgwidth style="width: 400px"}
-
 `r Bookinfo("asancpt/pkrBook")`
+![](/img/nca_cover.jpg){:.imgwidth style="width: 250px"}
 
-![](/img/conferences_cover.jpg){:.imgwidth style="width: 400px"}
+---
 
 `r Bookinfo("shanmdphd/conferences")`
+![](/img/conferences_cover.jpg){:.imgwidth style="width: 250px"}
 
-![](/img/edison_cover.jpg){:.imgwidth style="width: 400px"}
+---
 
 `r Bookinfo("asancpt/EdisonReport")`
+![](/img/edison_cover.jpg){:.imgwidth style="width: 250px"}
+
 
 ## Papers
 
-![](/img/caffeine_cover.jpg) {:.imgwidth style="width: 400px"}
-
 `r Bookinfo("asancpt/CaffeineEdison")`
+![](/img/caffeine_cover.jpg){:.imgwidth style="width: 250px"}
+
