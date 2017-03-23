@@ -10,7 +10,7 @@ cover-image: 2016welcome.jpg
 ### Residents
 
 - Yong-Soon Cho, M.D, Ph.D - yscho at acp.kr
-- Sungpil Han, M.D/Ph.D - shan at acp.kr <https://shanmdphd.github.com>
+- Sungpil Han, M.D/Ph.D - shan at acp.kr <https://shanmdphd.github.io>
 - Seok Kyu Yoon, M.D - skyoon at acp.kr
 - Hyungsub Kim, M.D, Ph.D, D.V.M - hkim at acp.kr
 
