@@ -9,10 +9,11 @@ Bookinfo <- function(Github){
     Id <- strsplit(Github, split = "/")[[1]][1]
     Repo <- strsplit(Github, split = "/")[[1]][2]
     Rmd <- readLines(indexRmd)
-    cat("- ", Rmd[grepl("^title", Rmd)], 
+    Content <- paste0("- ", Rmd[grepl("^title", Rmd)], 
         "\\n-", Rmd[grepl("^author", Rmd)],
         "\\n-", paste0("[Read](https://", Id, ".github.io/", Repo, ")")
         )
+    return(Content)
 }
 ```
 
