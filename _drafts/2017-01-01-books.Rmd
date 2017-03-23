@@ -11,12 +11,11 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 | :-- | :-- |
 | ![](/img/conferences_cover.jpg) | <https://shanmdphd.github.io/conferences> |
 | ![](/img/nca_cover.jpg) | <https://asancpt.github.io/pkrBook> |
-|  | <https://asancpt.github.io/EdisonReport> |
+| ![](/img/edison_cover.jpg) | <https://asancpt.github.io/EdisonReport> |
 
 ## Papers
 
 | Cover | Book |
 | :-- | :-- |
 | ![](/img/caffeine_cover.jpg) | <https://asancpt.github.io/CaffeineEdison> |
-
 
