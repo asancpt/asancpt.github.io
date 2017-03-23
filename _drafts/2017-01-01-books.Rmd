@@ -15,7 +15,7 @@ Bookinfo <- function(Github){
     Repo <- strsplit(Github, split = "/")[[1]][2]
     
     Content <- paste0("**", gsub('^title: |\\"', "", Title), 
-        "** *by* ", gsub('^author: |\\"|\\[|\\]', "", Author),
+        "** *by* ", gsub('^author" |#author: |\\"|\\[|\\]', "", Author),
         paste0(' [<i class="fa fa-book" aria-hidden="true"></i>', 
                " Read](https://", Id, ".github.io/", Repo, ")\n\n")
         )
