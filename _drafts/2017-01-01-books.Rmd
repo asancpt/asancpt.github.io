@@ -10,8 +10,8 @@ Bookinfo <- function(Github){
     Repo <- strsplit(Github, split = "/")[[1]][2]
     Rmd <- readLines(indexRmd)
     Content <- paste0("- ", Rmd[grepl("^title", Rmd)], 
-        "\\n-", Rmd[grepl("^author", Rmd)],
-        "\\n-", paste0("[Read](https://", Id, ".github.io/", Repo, ")")
+        "\n- ", Rmd[grepl("^author", Rmd)],
+        "\n- ", paste0("[Read](https://", Id, ".github.io/", Repo, ")")
         )
     return(Content)
 }
@@ -27,7 +27,9 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 | ![](/img/nca_cover.jpg) | `r Bookinfo("asancpt/pkrBook")` |
 | ![](/img/edison_cover.jpg) | `r Bookinfo("asancpt/EdisonReport")` |
 
+![](/img/conferences_cover.jpg){:.some-css-class style="width: 200px"}
 
+`r Bookinfo("shanmdphd/conferences")`
 
 ## Papers
 
