@@ -4,14 +4,20 @@ summary: 저술 활동입니다.
 ---
 
 ```{r include = FALSE}
+Github <- "shanmdphd/conferences"
 Bookinfo <- function(Github){
     indexRmd <- paste0("https://raw.githubusercontent.com/", Github, "/master/index.Rmd")
+    Rmd <- readLines(indexRmd)
+    
+    Title <- Rmd[grepl("^title", Rmd)]
+    Author <- Rmd[grepl("^author", Rmd)] 
     Id <- strsplit(Github, split = "/")[[1]][1]
     Repo <- strsplit(Github, split = "/")[[1]][2]
-    Rmd <- readLines(indexRmd)
-    Content <- paste0("- ", Rmd[grepl("^title", Rmd)], 
-        "\n- ", Rmd[grepl("^author", Rmd)],
-        "\n- ", paste0("[Read](https://", Id, ".github.io/", Repo, ")")
+    
+    Content <- paste0(gsub('^title: |\\"', "", Title), 
+        "_by_ ", gsub('^author: |\\"|[|]', "", Author),
+        paste0(' [<i class="fa fa-book" aria-hidden="true"></i>', 
+               " Read](https://", Id, ".github.io/", Repo, ")\n\n---\n\n")
         )
     return(Content)
 }
@@ -21,18 +27,20 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 
 ## Books
 
-| Cover | Book |
-| :-- | :-- |
-| ![](/img/conferences_cover.jpg) | `r Bookinfo("shanmdphd/conferences")` |
-| ![](/img/nca_cover.jpg) | `r Bookinfo("asancpt/pkrBook")` |
-| ![](/img/edison_cover.jpg) | `r Bookinfo("asancpt/EdisonReport")` |
+![](/img/nca_cover.jpg){:.imgwidth style="width: 400px"}
 
-![](/img/conferences_cover.jpg){:.some-css-class style="width: 200px"}
+`r Bookinfo("asancpt/pkrBook")`
+
+![](/img/conferences_cover.jpg){:.imgwidth style="width: 400px"}
 
 `r Bookinfo("shanmdphd/conferences")`
 
+![](/img/edison_cover.jpg){:.imgwidth style="width: 400px"}
+
+`r Bookinfo("asancpt/EdisonReport")`
+
 ## Papers
 
-| Cover | Book |
-| :-- | :-- |
-| ![](/img/caffeine_cover.jpg) | `r Bookinfo("asancpt/CaffeineEdison")` |
+![](/img/caffeine_cover.jpg) {:.imgwidth style="width: 400px"}
+
+`r Bookinfo("asancpt/CaffeineEdison")`
