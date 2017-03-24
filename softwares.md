@@ -7,23 +7,26 @@ title: Softwares
 
 ## R packages
 
-- ksbae: pkr <https://CRAN.R-project.org/package=pkr> 
-`install.packages("pkr")`
-
-- ksbae: ncar <https://CRAN.R-project.org/package=ncar>
-`install.packages("ncar")`
-
-- ksbae: nmw <https://CRAN.R-project.org/package=nmw>
-`install.packages("nmw")`
-
-- ksbae: NonCompart <https://CRAN.R-project.org/package=NonCompart>
-`install.packages("NonCompart")`
-
-- shan: caffsim <https://github.com/asancpt/caffsim> 
-`install_github("asancpt/caffsim")`
-
-- shan: crftools <https://github.com/asancpt/crftools> 
-`install_github("asancpt/crftools")`
+<p>Bae K and Lee JE (2017).
+<em>pkr: Pharmacokinetics in R</em>.
+R package version 0.1.0, <a href="https://CRAN.R-project.org/package=pkr">https://CRAN.R-project.org/package=pkr</a>. 
+</p>
+<p>Bae K (2017).
+<em>ncar: Noncompartmental Analysis for Pharmacokinetic Data for Report</em>.
+R package version 0.3.4, <a href="https://CRAN.R-project.org/package=ncar">https://CRAN.R-project.org/package=ncar</a>. 
+</p>
+<p>Bae K and Lee JE (2017).
+<em>NonCompart: Noncompartmental Analysis for Pharmacokinetic Data</em>.
+R package version 0.2.7, <a href="https://CRAN.R-project.org/package=NonCompart">https://CRAN.R-project.org/package=NonCompart</a>. 
+</p>
+<p>Han S (2017).
+<em>caffsim: Monte Carlo Simulation of Plasma Caffeine Concentrations by Using Population Pharmacokinetic Model</em>.
+R package version 0.1.0, <a href="https://github.com/asancpt/caffsim">https://github.com/asancpt/caffsim</a>. 
+</p>
+<p>Han S (2017).
+<em>crftools: CRF tools for Asan CPT</em>.
+R package version 0.1.0, <a href="https://github.com/asancpt/crftools">https://github.com/asancpt/crftools</a>. 
+</p>
 
 ## Shiny Web Apps
 
