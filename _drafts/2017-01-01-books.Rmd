@@ -49,7 +49,7 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 ---
 
 `r Bookinfo("asancpt/Rprogramming")`
-![](https://github.com/asancpt/Rprogramming/images/cover.jpg){:.imgwidth style="width: 250px"}
+![](https://asancpt.github.io/Rprogramming/images/cover.jpg){:.imgwidth style="width: 250px"}
 
 
 ## Papers
