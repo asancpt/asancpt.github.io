@@ -46,6 +46,11 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 `r Bookinfo("asancpt/EdisonReport")`
 ![](/img/edison_cover.jpg){:.imgwidth style="width: 250px"}
 
+---
+
+`r Bookinfo("asancpt/Rprogramming")`
+![](https://asancpt.github.io/Rprogramming/images/cover.jpg){:.imgwidth style="width: 250px"}
+
 
 ## Papers
 
