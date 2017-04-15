@@ -47,6 +47,29 @@ DOI <- "10.1002/adma.201605563"
 Journal(cptid, DOI)
 ```
 
+```{r}
+cptid <- "2017-03-31-shan-pbpk"
+DOI <- "10.1002/cpt.622"
+```
+
+<!-- ```{r} -->
+<!-- cptid <- "2017-04-07-yscho-genomeEdit" -->
+<!-- DOI   <- "10.1002/cpt.542" -->
+<!-- Journal(cptid, DOI) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- cptid <- "2017-04-07-skyoon-largepharma" -->
+<!-- DOI   <- "10.1056/NEJMra1510069" -->
+<!-- Journal(cptid, DOI) -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- cptid <- "2017-04-14-gcpark-ngs"  -->
+<!-- DOI <- "10.3389/fgene.2015.00215" # Clinical applications of next generation sequencing in cancer: from panels, to exomes, to genomes -->
+<!-- Journal(cptid, DOI) -->
+<!-- ``` -->
+
 ## Conversion
 
 - Download `imagemagick` <http://www.imagemagick.org/script/download.php>

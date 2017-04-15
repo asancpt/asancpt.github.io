@@ -1,0 +1,49 @@
+# Large-pharma
+
+The Large Pharmaceutical Company Perspective
+
+```{r}
+cptid <- "2017-04-07-skyoon-largepharma"
+DOI   <- "10.1056/NEJMra1510069"
+Journal(cptid, DOI)
+```
+
+http://www.nejm.org/doi/pdf/10.1056/NEJMra1510069
+
+- Rotavirus Efficacy and Safety Trial (REST)
+    - Phase 3 trial
+    - 70000 infants and children (RotaTeq) - 
+    - Previously reported s/e of rotavirus vaccine (RotaShiled)
+    - 2006 approved.
+    - Intussusception
+        - 1/100,000 - Intu (RotaTeq) vs 1 to 3 of 10,000 (RotaShiled)
+
+- Alendronate
+    - Fosamax by Merck, bisphosphonate
+    - Clinical Trial based on monkey experiments
+    - Fx Intervention Trial (FIT)
+
+
+# Genome Editing Techniques and Their Therapeutic Application
+
+```{r}
+cptid <- "2017-04-07-yscho-genomeEdit"
+DOI   <- "10.1002/cpt.542"
+Journal(cptid, DOI)
+```
+
+- Potential of a DSB (Double-Strand Break)
+    - CRISPR/Cas9
+    - Argonaute
+    - Non-homologous end joining (Frequency 10-50%)
+    - Finding the most promising therapeutic application - desired genetic outcome, cell type, delivery method (Difficult!)
+    - HSV-1 (Cornea) CAR-T (Destroying TCR and CD52)
+- Power of Gene Addition
+    - Efficiency vs precision
+- DSB vs Retrovirus vs Transposon
+    - Retro/Transposon - lack DNA sequence spec
+    - site-specific recombinases - all-in-one enzyme
+        - cre resolvase
+        - cas9 
+
+
