@@ -33,7 +33,7 @@ We are pursuing reproducible research. Rmarkdown, bookdown, knitr and pandoc ena
 
 ## Books
 
-`r Bookinfo("asancpt/pkrBook")`
+`r Bookinfo("asancpt/NonCompartBook")`
 ![](/img/nca_cover.jpg){:.imgwidth style="width: 250px"}
 
 ---
