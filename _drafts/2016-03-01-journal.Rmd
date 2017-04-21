@@ -52,6 +52,10 @@ cptid <- "2017-03-31-shan-pbpk"
 DOI <- "10.1002/cpt.622"
 ```
 
+```{r}
+cptid <- "2017-04-21-shan-rxode"
+DOI <- "10.1002/psp4.12052"
+```
 <!-- ```{r} -->
 <!-- cptid <- "2017-04-07-yscho-genomeEdit" -->
 <!-- DOI   <- "10.1002/cpt.542" -->
