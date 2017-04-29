@@ -10,6 +10,7 @@ title: Softwares
 `r format(citation("pkr"), "html")`
 `r format(citation("ncar"), "html")`
 `r format(citation("NonCompart"), "html")`
+`r format(citation("nmw"), "html")`
 `r format(citation("caffsim"), "html")`
 `r format(citation("crftools"), "html")`
 
