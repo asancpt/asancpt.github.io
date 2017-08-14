@@ -16,14 +16,16 @@ title: Softwares
 
 ## Shiny Web Apps
 
-- shan: pkrshiny <https://asancpt.shinyapps.io/pkrshiny>
+- shan: pkrshiny <https://asancpt.shinyapps.io/pkrshiny>, source: <https://github.com/asancpt/shiny-pkr>
 - shan: caff <https://asancpt.shinyapps.io/caff>
 - shan: noncompart <https://asancpt.shinyapps.io/noncompart>
-- shan: vtdm <https://asancpt.shinyapps.io/vtdm>
+- shan: vtdm <https://asancpt.shinyapps.io/vtdm> 
+
 
 ## Edison Science Apps
 
-- shan: CaffeineEdison <https://github.com/asancpt/CaffeineEdison>
-- shan: NonCompartEdison <https://github.com/asancpt/NonCompartEdison>
-- shan: nmw2017edison <https://github.com/asancpt/nmw2017edison>
+- shan: CaffeineEdison <https://github.com/asancpt/edison-caff>
+- shan: NonCompartEdison <https://github.com/asancpt/edison-NonCompart>
+- shan: nmw2017edison <https://github.com/asancpt/edison-nmw>
+- shan: pk1c <https://github.com/asancpt/edison-pk1c>
 
